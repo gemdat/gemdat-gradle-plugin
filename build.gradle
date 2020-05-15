@@ -3,7 +3,7 @@ plugins {
     id 'eclipse'
     id 'java-library'
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.10.1' 
+    id 'com.gradle.plugin-publish' version '0.11.0' 
 }
 
 version = "1.0"
@@ -30,8 +30,8 @@ gradlePlugin {
 }
 
 pluginBundle {
-  website = 'https://github.com/gemdat/'
-  vcsUrl = 'https://github.com/gemdat/gradle-plugin.git'
+  website = 'https://github.com/gemdat/gemdat-gradle-plugin'
+  vcsUrl = 'https://github.com/gemdat/gemdat-gradle-plugin.git'
   description = 'Gemdat gradle plugin'
   tags = ['gemdat', 'version']
 
