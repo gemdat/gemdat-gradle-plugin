@@ -1,0 +1,43 @@
+plugins {
+    id 'maven'
+    id 'eclipse'
+    id 'java-library'
+    id 'java-gradle-plugin'
+    id 'com.gradle.plugin-publish' version '0.10.1' 
+}
+
+version = "1.0"
+group = "ch.gemdat"
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+// --> https://guides.gradle.org/publishing-plugins-to-gradle-plugin-portal/
+
+gradlePlugin {
+  plugins {
+    gemdatPlugin {
+      id = 'ch.gemdat'
+      implementationClass = 'gemdat.gradle.plugin.GemdatPlugin'
+    }
+  }
+}
+
+pluginBundle {
+  website = 'https://github.com/gemdat/'
+  vcsUrl = 'https://github.com/gemdat/gradle-plugin.git'
+  description = 'Gemdat gradle plugin'
+  tags = ['gemdat', 'version']
+
+  plugins {
+    gemdatPlugin {
+      displayName = 'Gemdat version plugin for Gradle'
+    }
+  }
+}

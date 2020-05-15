@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="gemdat.gradle.plugin.VersionTaskTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-14T18:53:34" hostname="NB02" time="1.866">
+  <properties/>
+  <testcase name="setVersion_fromDate" classname="gemdat.gradle.plugin.VersionTaskTest" time="1.846"/>
+  <testcase name="applyPluginToProject" classname="gemdat.gradle.plugin.VersionTaskTest" time="0.02"/>
+  <system-out><![CDATA[Version: unspecified-20200514_205336
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

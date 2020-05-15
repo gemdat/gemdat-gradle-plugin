@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"gemdat.gradle.plugin","c":"GemdatPlugin","l":"apply(Project)","url":"apply(org.gradle.api.Project)"},{"p":"gemdat.gradle.plugin","c":"GemdatPlugin","l":"GemdatPlugin()","url":"%3Cinit%3E()"},{"p":"gemdat.gradle.plugin","c":"VersionTask","l":"setVersion()"},{"p":"gemdat.gradle.plugin","c":"VersionTask","l":"VersionTask()","url":"%3Cinit%3E()"}]

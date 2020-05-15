@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"gemdat.gradle.plugin","l":"GemdatPlugin"},{"p":"gemdat.gradle.plugin","l":"VersionTask"}]
