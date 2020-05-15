@@ -1,5 +1,4 @@
 plugins {
-    id 'maven'
     id 'eclipse'
     id 'java-library'
     id 'java-gradle-plugin'
@@ -11,7 +10,6 @@ group = "ch.gemdat"
 
 repositories {
     jcenter()
-    mavenCentral()
 }
 
 dependencies {
