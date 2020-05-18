@@ -1,7 +1,10 @@
 # gemdat-gradle-plugin
  Gemdat Gradle-Plugin for generally used build tasks.
  
- *Gradle:* `plugins { id "ch.gemdat" version "1.0" }`
+ *Gradle:* `plugins { id "ch.gemdat" version "1.2" }`
+ 
+ To use it with SpringBoot just add the following to the build.gradle:
+ `bootBuildInfo.dependsOn postfixVersion` 
  
 **version**
 
