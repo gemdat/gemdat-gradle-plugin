@@ -7,7 +7,7 @@ public class GemdatPlugin implements Plugin<Project> {
 
 	@Override
 	public void apply(Project project) {
-		project.getTasks().create("version", VersionTask.class).mustRunAfter("classes");
+		project.getTasks().create("postfixVersion", VersionTask.class);
 	}
 
 }

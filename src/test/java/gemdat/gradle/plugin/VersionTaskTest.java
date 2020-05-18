@@ -18,7 +18,7 @@ public class VersionTaskTest {
         Project project = ProjectBuilder.builder().build();
         project.getPlugins().apply(GemdatPlugin.class);
         assertEquals(1, project.getTasks().size());
-        Set<Task> task = project.getTasksByName("version", false);
+        Set<Task> task = project.getTasksByName("postfixVersion", false);
         assertFalse(task.isEmpty());
         assertTrue(task.toArray()[0] instanceof VersionTask);
     }
@@ -28,8 +28,8 @@ public class VersionTaskTest {
         Project project = ProjectBuilder.builder().build();
         assertEquals("unspecified", project.getVersion());
         project.getPlugins().apply(GemdatPlugin.class);
-        VersionTask version = (VersionTask)project.getTasksByName("version", false).toArray()[0];        
-		version.setVersion();
+        VersionTask version = (VersionTask)project.getTasksByName("postfixVersion", false).toArray()[0];        
+		version.postfixVersion();
 		assertTrue(project.getVersion().toString().startsWith("unspecified-2020"));
 	}
 	
