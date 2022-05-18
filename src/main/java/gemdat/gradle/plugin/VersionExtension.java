@@ -1,5 +1,9 @@
 package gemdat.gradle.plugin;
 
+/**
+ * Version extension class holds version data.
+ * @author beat.jost
+ */
 public class VersionExtension {
 
 	private String version;

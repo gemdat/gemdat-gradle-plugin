@@ -3,6 +3,10 @@ package gemdat.gradle.plugin;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 
+/**
+ * Gemdat gradle plugin class to set build/artifact version 
+ * @author beat.jost
+ */
 public class GemdatPlugin implements Plugin<Project> {
 
 	@Override

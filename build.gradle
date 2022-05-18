@@ -2,18 +2,21 @@ plugins {
     id 'eclipse'
     id 'java-library'
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.11.0' 
+    id 'com.gradle.plugin-publish' version '0.21.0' 
 }
 
-version = "2.2"
+version = "2.4"
 group = "ch.gemdat"
 
+sourceCompatibility = '17'
+wrapper.gradleVersion = '7.4.2'
+
 repositories {
-    jcenter()
+  jcenter()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.12'
+  testImplementation 'junit:junit:4.12'
 }
 
 // --> https://guides.gradle.org/publishing-plugins-to-gradle-plugin-portal/

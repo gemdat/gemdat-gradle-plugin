@@ -6,6 +6,10 @@ import java.util.Date;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.TaskAction;
 
+/**
+ * Default task to extend/postfix base version with git-SHA or timestamp. 
+ * @author beat.jost
+ */
 public class VersionTask extends DefaultTask {
 
 	@TaskAction

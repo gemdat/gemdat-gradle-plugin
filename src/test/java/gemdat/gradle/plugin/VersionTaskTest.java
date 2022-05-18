@@ -30,7 +30,7 @@ public class VersionTaskTest {
         project.getPlugins().apply(GemdatPlugin.class);
         VersionTask version = (VersionTask)project.getTasksByName("postfixVersion", false).toArray()[0];        
 		version.postfixVersion();
-		assertTrue(project.getVersion().toString().startsWith("unspecified-2020"));
+		assertTrue(project.getVersion().toString().startsWith("unspecified-20"));
 	}
 	
 }
