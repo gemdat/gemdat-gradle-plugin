@@ -2,10 +2,10 @@ plugins {
     id 'eclipse'
     id 'java-library'
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.21.0' 
+    id 'com.gradle.plugin-publish' version '0.21.0'
 }
 
-version = "2.4"
+version = "2.5"
 group = "ch.gemdat"
 
 sourceCompatibility = '17'

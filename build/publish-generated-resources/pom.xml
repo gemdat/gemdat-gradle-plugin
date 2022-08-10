@@ -3,5 +3,5 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>gradle.plugin.ch.gemdat</groupId>
   <artifactId>gemdat-gradle-plugin</artifactId>
-  <version>1.0</version>
+  <version>2.5</version>
 </project>
