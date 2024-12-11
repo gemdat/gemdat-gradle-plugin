@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"gemdat.gradle.plugin","l":"GemdatPlugin"},{"p":"gemdat.gradle.plugin","l":"VersionTask"}]
+typeSearchIndex = [{"l":"Alle Klassen und Schnittstellen","u":"allclasses-index.html"},{"p":"gemdat.gradle.plugin","l":"GemdatPlugin"},{"p":"gemdat.gradle.plugin","l":"VersionExtension"},{"p":"gemdat.gradle.plugin","l":"VersionTask"}];updateSearchResults();

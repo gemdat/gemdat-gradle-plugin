@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"gemdat.gradle.plugin"}]
+packageSearchIndex = [{"l":"Alle Packages","u":"allpackages-index.html"},{"l":"gemdat.gradle.plugin"}];updateSearchResults();

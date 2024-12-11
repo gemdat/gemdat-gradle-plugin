@@ -2,14 +2,14 @@ plugins {
     id 'eclipse'
     id 'java-library'
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.21.0'
+    id 'com.gradle.plugin-publish' version '1.2.1'
 }
 
 version = "2.5"
 group = "ch.gemdat"
 
-sourceCompatibility = '17'
-wrapper.gradleVersion = '7.4.2'
+sourceCompatibility = '21'
+wrapper.gradleVersion = '8.7'
 
 repositories {
   jcenter()
